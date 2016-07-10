@@ -4,6 +4,7 @@ Welcome to gitlab-api-client documentation. This client has been
 designed to fit in as little lines as possible.
 
 All you have to know is that :
+
 1. This client exposes an HTTP request from the node module
    request. This means that you can use it like any `request` based
    project with a simple callback that takes `(err, response, body)`.
