@@ -74,6 +74,6 @@ gitlab
 ## Conclusion
 Thanks for trying this module. I hope that you will enjoy it. Please,
 report and idea, comment and bugs that you may find in the [issue
-section](https://github.com/kiddouk/gitlab-api.client/issues) of this repo.
+section](https://github.com/kiddouk/gitlab-api-client/issues) of this repo.
 
 Hasta la vista !
