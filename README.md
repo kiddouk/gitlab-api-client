@@ -13,7 +13,7 @@ All you have to know is that :
    you will have access to all the gitlab API endpoints, even for
    those that haven't been defined yet. Isn't life good ?
    example: `gitlab.projects().all()` builds the path `/projects/all`
-   `gitlab.projects(1).repository().commits("b4da33sha1")` builds the
+   `gitlab.projects(1).repository().commits("b4da333ha1")` builds the
    path `/projects/1/repository/commits/b4da33sha1`.
 
 
