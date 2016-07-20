@@ -35,7 +35,7 @@ class PathSegment
   post: (data, cb) ->
     return request.post {
       headers: @config.headers
-      url: @Url()
+      url: @completeUrl()
       body: data
       json: true
       }, cb
