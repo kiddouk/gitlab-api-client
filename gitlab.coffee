@@ -40,6 +40,14 @@ class PathSegment
       json: true
       }, cb
 
+  put: (data, cb) ->
+    return request.put {
+      headers: @config.headers
+      url: @completeUrl()
+      body: data
+      json: true
+      }, cb
+
 
 create = (token, url) ->
   root = new PathSegment
